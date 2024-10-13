@@ -8,5 +8,6 @@ CREATE TABLE Registration (
     current_job_title VARCHAR(100),
     years_of_experience INT,
     primary_programming_languages VARCHAR(255),
-    technologies_and_frameworks VARCHAR(255)
+    technologies_and_frameworks VARCHAR(255),
+    date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
