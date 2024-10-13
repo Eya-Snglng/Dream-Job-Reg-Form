@@ -1,4 +1,4 @@
-CREATE TABLE FullStackDeveloperRegistration (
+CREATE TABLE Registration (
     id INT AUTO_INCREMENT PRIMARY KEY,
     full_name VARCHAR(255) NOT NULL,
     email_address VARCHAR(255) NOT NULL,
